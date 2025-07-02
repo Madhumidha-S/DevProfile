@@ -1,5 +1,7 @@
 const resumeController = require("./resumeController");
 
 module.exports = {
-  resumeController,
+  getProfile: resumeController.getProfile,
+  getRepos: resumeController.getRepos,
+  getResume: resumeController.getResume,
 };

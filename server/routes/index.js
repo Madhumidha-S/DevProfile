@@ -7,6 +7,6 @@ router.get("/health", (req, res) => {
 });
 
 router.use("/auth", resumeRoutes);
-router.use("/api", resumeRoutes);
+// router.use("/api", resumeRoutes);
 
 module.exports = router;
